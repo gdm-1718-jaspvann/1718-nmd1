@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>New Media Design</title>
+  <link rel="stylesheet" type="text/css" href="portfolio.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+
+
+<body onload="myFunction()" style="margin:0;">
+        <div class="loader" id="docuload">
+            <h3>LOADING</h3>
+            <div class="spinload"></div>
+        </div>
+
+        <header id="docutop" style="display:none;">
+                <div id="blokje1"></div>
+                <div id="blokje2"></div>
+                <div id="blokje3"></div>
+                <div id="blokje4"></div>
+                <div id="blokje5"></div>
+                <div id="blokje6"></div>
+                <div id="blokje11"><i aria-hidden="true"></i><a href="https://www.youtube.com/watch?v=jKFLI4-hTVI&t=30s" target="_blank" class="fa fa-youtube-play"></a></i></div>
+                <div id="blokje12"><i aria-hidden="true"></i><a href="https://www.facebook.com/jasper.vanneste" target="_blank" class="fa fa-facebook"></a></div>
+                <div id="blokje13"><i aria-hidden="true"></i><a href="https://www.instagram.com/jasper.krul/" target="_blank" class="fa fa-instagram"></a></div>
+                <div id="blokje14"><i aria-hidden="true"></i><a href="https://steamcommunity.com/id/JaspeRvanneste/" target="_blank" class="fa fa-steam"></a></div>
+                <div id="blokje15"><i aria-hidden="true"></i><a href="https://twitter.com/jaspervanneste" target="_blank" class="fa fa-twitter"></a></div>
+                <div id="blokje16"><i aria-hidden="true"><a href="snapchat.html" target="_blank" class="fa fa-snapchat-ghost"></a></i></div>
+                 <h1 align="center">JASPER</h1>
+            </header>
+
+    <div class="lijn" id="doculijn" style="display:none;"></div>
+    <div class="portfolio" id="documain" style="display:none;">
+        <div class="vierkant">
+             <p>Hallo mijn naam is Jasper Vanneste. Ik ben geboren in Aalst op 19 Augustus 1997 en nu ben ik dus 20jaar oud. Ik woon in Denderwindeke, dit is een deelgemeente van Ninove.</p>
+        </div>
+
+        <div class="vierkant2">
+            <p>In het middelbaar heb ik Elektro-Mechanica gevold, dit heb ik ook verder gestudeerd aan Hogent maar ik ben na een halfjaar er mee gestopt door te slechte resultaten. Nu studeer ik Grafische Digitale Media aan de Artevelde Hogeschool.</p>
+        </div>
+
+        <div class="vierkant3">
+            <p>Mijn interesses liggen vooral in techniek en computer. Ik heb geen hobbies, in mijn vrije tijd game ik veel, ga ik drinken met vrienden of kijk ik series zoals Game Of Thrones, Homeland, Black Mirror, ...</p>
+        </div>
+
+    <footer id="docubottom" style="display:none;">
+        <div>
+            <h2>Designed by</h2>
+            <img src="signed.png" alt="signed" class="signedbyjasper" width="auto" height="200px">
+            <form action="/action_page.php" id="emailsend">
+        </div>
+    </footer>
+</body>
+
+<script>
+        var myVar;
+        
+        function myFunction() {
+            myVar = setTimeout(showPage, 1000);
+        }
+        
+        function showPage() {
+          document.getElementById("docutop").style.display = "inline";
+          document.getElementById("doculijn").style.display = "inline-block";
+          document.getElementById("documain").style.display = "inline";
+          document.getElementById("docubottom").style.display = "inline-block";
+          document.getElementById("docuload").style.display = "none";
+        }
+        </script>
+
+
+
+</html>
+

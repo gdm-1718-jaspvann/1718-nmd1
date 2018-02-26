@@ -1,0 +1,304 @@
+#blokje1{
+    margin-top:5px;
+    margin-left: 95px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(228,34,6)
+}
+
+#blokje2{
+    margin-top: -40px;
+    margin-left: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(57,168,224)
+}
+
+#blokje3{
+    margin-top: -40px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230,0,126)
+}
+
+#blokje4{
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(137,102,169)
+}
+
+#blokje5{
+    margin-left: 5px;
+    margin-top: -40px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(77,176,91)
+}
+
+#blokje6{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 238, 0)
+}
+
+#blokje11{
+    float: right;
+    margin-top: -40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(228,34,6)
+}
+
+#blokje12{
+    float: right;
+    margin-top: -40px;
+    margin-right: 50px;
+    margin-left: -10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(57,168,224)
+}
+
+#blokje13{
+    float: right;
+    margin-top: -40px;
+    margin-right: 95px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230,0,126)
+}
+
+#blokje14{
+    float: right;
+    margin-right: 50px;
+    margin-top: -85px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(137,102,169)
+}
+
+#blokje15{
+    float: right;
+    margin-right: 5px;
+    margin-top: -85px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(77,176,91)
+}
+
+#blokje16{
+    float: right;
+    margin-right: 5px;
+    margin-top: -130px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 238, 0)
+}
+
+h1{
+margin-left: auto;
+margin-right: auto;
+color: black;
+margin-top: -120px;
+margin-bottom: auto;
+font-family: lemonmilk;
+font-size: 80px;
+}
+
+p {
+    color: black;
+    font-family: lemonmilk;
+    font-size: 20px;
+    }
+
+
+.portfolio img{
+width: 50%;
+height: 50%;
+float: left;
+}
+
+header{
+    margin-top:0px;
+    background-color: white;
+    width: 100%;
+    height: 135px;
+}
+
+body{
+    padding: 0px;
+    margin-top:200px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+@font-face {
+    font-family: "lemonmilk";
+    src: url("fonts/lemonmilk.otf") format("opentype");
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+    font-family: "lemonmilk";
+    border-top: black solid 20px;
+    background-color: white;
+    display: inline-block;
+}
+
+h2{
+margin-left: 20px;
+}
+
+.fa-facebook{
+text-decoration: none;
+color:white;
+margin-top: 15px;
+margin-left: 18px;
+-webkit-text-stroke: 1px;
+-webkit-transform: scale(2.5);
+}
+
+.fa-snapchat-ghost{
+text-decoration: none;
+color:white;
+margin-top: 11px;
+margin-left: 12.5px;
+-webkit-transform: scale(2.3);
+}
+
+.fa-instagram{
+    text-decoration: none;
+color:white;
+-webkit-transform: scale(2.4);
+margin-top: 11px;
+margin-left: 13px;
+}
+
+.fa-steam{
+    text-decoration: none;
+color:white;
+-webkit-transform: scale(2.4);
+margin-top: 11px;
+margin-left: 11px;
+}
+
+.fa-youtube-play{
+text-decoration: none;
+color:white;
+-webkit-transform: scale(1.9);
+margin-top: 11px;
+margin-left: 12px;
+}
+
+.fa-twitter{
+text-decoration: none;
+color:white;
+-webkit-transform: scale(2);
+margin-top: 11px;
+margin-left: 12.5px;
+}
+
+.signedbyjasper{
+margin-top: -60px;
+margin-left: 170px;
+height: 100px;
+width: auto;
+}
+
+
+.loader{
+  animation: MoveUpDown 4s linear infinite;
+  position: absolute;
+  left: 35%;
+  background-color: rgb(228,34,6);
+  width: 275px;
+  height: 275px;
+  -moz-border-radius: 250px;
+  -webkit-border-radius: 250px;
+  border-radius: 50%;
+}
+
+.spinload{
+    margin-top:-208px;
+    width: 245px;
+    height: 245px;
+    margin-left: -1px;
+    -moz-border-radius: 250px;
+    -webkit-border-radius: 250px;
+    border-radius: 50%;
+    border-top: 16px solid white;
+    border-bottom: 16px solid white;
+    border-right: 16px solid black;
+    border-left: 16px solid black;
+    animation: spin 2s linear infinite;
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+@keyframes MoveUpDown {
+    0% {
+      top:150px;
+      background-color: rgb(230,0,126);
+    }
+    25% {
+      top: 200px;
+      background-color:rgb(57,168,224);
+    }
+    50% {
+      top: 250px;
+      background-color:rgb(77,176,91);
+    }
+    75% {
+      top: 200px;
+      background-color:rgb(255, 238, 0);
+    }
+    100% {
+      top: 150px;
+      background-color:rgb(137,102,169);
+    }
+}
+
+
+H3{
+    margin-top:110px;
+    text-align: center;
+    font-family: "lemonmilk";
+    font-size: 40px;
+    color: white;
+}
+
+.lijn{
+margin-top: 5px;
+height:20px;
+width: 100%;
+background-color: black;
+}
+
+.vierkant{
+margin-left: 30px;
+width: 400px;
+}
+
+.vierkant2{
+margin-left: 500px;
+width: 400px;
+}
+
+.vierkant3{
+margin-left: 30px;
+width: 400px;
+}
